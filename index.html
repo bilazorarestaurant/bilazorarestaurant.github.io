@@ -1,79 +1,218 @@
 <!DOCTYPE html>
 <html lang="mk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Била Зора Ресторан</title>
-    <style>
-        body {
-            font-family: "Times New Roman", serif;
-            background-color: #fff;
-            margin: 0;
-            padding: 0;
-            color: #3e3a33;
-        }
-        header {
-            text-align: center;
-            background: linear-gradient(45deg, #d1b67d, #6e4b3e); /* Luxurious gradient */
-            padding: 60px 20px;
-            color: #fff;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow for impact */
-            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); /* Dynamic angled design */
-        }
-        header h1 {
-            font-size: 4rem; /* Bold and oversized for attention */
-            margin: 0;
-            letter-spacing: 5px;
-            text-transform: uppercase;
-            font-weight: 700;
-            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Subtle text shadow for depth */
-        }
-        header p {
-            font-size: 1.2rem;
-            margin: 10px 0 0;
-            font-style: italic;
-            opacity: 0.9;
-        }
-        main {
-            padding: 40px;
-            max-width: 1000px;
-            margin: 50px auto;
-            background: #fff;
-            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        section {
-            margin-bottom: 60px;
-        }
-        section h2 {
-            border-bottom: 3px solid #d1b67d;
-            padding-bottom: 12px;
-            margin-bottom: 20px;
-            font-size: 2.5rem;
-            color: #6e4b3e;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            font-weight: 600;
-        }
-        .menu-item {
-            margin-bottom: 30px;
-        }
-        .menu-item h3 {
-            font-size: 1.6rem;
-            margin: 0 0 8px 0;
-            color: #6e4b3e;
-        }
-        .menu-item p {
-            margin: 0;
-            font-size: 1rem;
-            color: #555;
-        }
-        .menu-item span {
-            font-weight: bold;
-            color: #d1b67d;
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Била Зора Ресторан</title>
+        <style>
+            /* Global reset */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: 'Georgia', serif;
+                background-color: #f7f7f7;
+                color: #2c2a29;
+                line-height: 1.6;
+            }
+    
+            header {
+                background: linear-gradient(135deg, #8e5c3b, #d4a300); /* Deep gold gradient */
+                color: white;
+                text-align: center;
+                padding: 80px 30px;
+                box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+                position: relative;
+                z-index: 2;
+            }
+    
+            header h1 {
+                font-size: 4.5rem;
+                letter-spacing: 8px;
+                font-weight: 900;
+                text-transform: uppercase;
+                text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for glow effect */
+                margin-bottom: 20px;
+            }
+    
+            header p {
+                font-size: 1.4rem;
+                font-style: italic;
+                opacity: 0.8;
+                letter-spacing: 2px;
+                font-weight: 400;
+                margin-top: 10px;
+            }
+    
+            main {
+                max-width: 1200px;
+                margin: 40px auto;
+                background-color: white;
+                box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+                border-radius: 12px;
+                padding: 40px;
+                overflow: hidden;
+            }
+    
+            section {
+                margin-bottom: 80px;
+                position: relative;
+            }
+    
+            section h2 {
+                font-size: 3rem;
+                font-weight: 700;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                color: #8e5c3b;
+                border-bottom: 3px solid #d4a300; /* Luxurious gold border */
+                padding-bottom: 15px;
+                margin-bottom: 30px;
+            }
+    
+            .menu-item {
+                background-color: #fafafa;
+                border-radius: 10px;
+                padding: 20px;
+                margin-bottom: 20px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                transition: all 0.3s ease;
+            }
+    
+            .menu-item:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            }
+    
+            .menu-item h3 {
+                font-size: 1.8rem;
+                font-weight: 600;
+                color: #3c2a21;
+                margin-bottom: 10px;
+            }
+    
+            .menu-item p {
+                font-size: 1.2rem;
+                color: #6a4e3d;
+            }
+    
+            .menu-item span {
+                font-weight: bold;
+                color: #d4a300; /* Glowing gold price */
+                font-size: 1.3rem;
+                letter-spacing: 1px;
+            }
+    
+            /* Section Background and Borders */
+            section::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.05);
+                z-index: -1;
+            }
+    
+            section:nth-child(even)::before {
+                background: rgba(0, 0, 0, 0.1);
+            }
+    
+            /* Scrollbar for smooth look */
+            ::-webkit-scrollbar {
+                width: 10px;
+            }
+    
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+    
+            ::-webkit-scrollbar-thumb {
+                background: #d4a300;
+                border-radius: 5px;
+            }
+    
+            ::-webkit-scrollbar-thumb:hover {
+                background: #8e5c3b;
+            }
+    
+            /* Mobile responsive styles */
+            @media (max-width: 768px) {
+                header {
+                    padding: 60px 20px; /* Reduced padding on mobile */
+                }
+    
+                header h1 {
+                    font-size: 3rem; /* Reduced font size for header */
+                    letter-spacing: 5px;
+                }
+    
+                header p {
+                    font-size: 1.2rem; /* Adjusted font size for subtitle */
+                }
+    
+                main {
+                    padding: 20px; /* Reduced padding for mobile */
+                }
+    
+                section h2 {
+                    font-size: 2.2rem; /* Smaller font size for section titles */
+                }
+    
+                .menu-item {
+                    padding: 15px; /* Reduced padding for menu items */
+                    margin-bottom: 15px; /* Decreased margin between items */
+                }
+    
+                .menu-item h3 {
+                    font-size: 1.6rem; /* Smaller font size for item names */
+                }
+    
+                .menu-item p {
+                    font-size: 1rem; /* Adjusted font size for descriptions */
+                }
+    
+                .menu-item span {
+                    font-size: 1.1rem; /* Smaller price font size */
+                }
+            }
+    
+            /* Very small screens */
+            @media (max-width: 480px) {
+                header h1 {
+                    font-size: 2.5rem; /* Even smaller font size for smaller screens */
+                }
+    
+                header p {
+                    font-size: 1rem; /* Adjusted subtitle font size */
+                }
+    
+                section h2 {
+                    font-size: 1.8rem; /* Even smaller section title */
+                }
+    
+                .menu-item {
+                    padding: 10px; /* Smaller padding for menu items */
+                }
+    
+                .menu-item h3 {
+                    font-size: 1.4rem; /* Smaller font size for item names */
+                }
+    
+                .menu-item p {
+                    font-size: 0.9rem; /* Smaller font size for descriptions */
+                }
+    
+                .menu-item span {
+                    font-size: 1rem; /* Adjusted price font size */
+                }
+            }
+        </style>
+    </head>    
 <body>
     <header>
         <h1>Била Зора Ресторан</h1>
@@ -92,22 +231,140 @@
             </div>
         </section>
 
-        <!-- Главни јадења Section -->
+        <!-- Ладно предјадење Section -->
         <section>
-            <h2>Главни јадења</h2>
+            <h2>Ладно предјадење</h2>
             <div class="menu-item">
-                <h3>Филе Мињон</h3>
-                <p>Сочно телешко со путер од лук и зачини. <span>1,799 ден</span></p>
+                <h3>Француски кроасан</h3>
+                <p>Лиснат и путерест кроасан сервиран со џем. <span>249 ден</span></p>
             </div>
             <div class="menu-item">
-                <h3>Ребра на скара</h3>
-                <p>Бавно печени ребра со карамелизиран барбекју сос. <span>1,399 ден</span></p>
+                <h3>Јајца Бенедикт</h3>
+                <p>Поширани јајца на англиски мафини со холандски сос. <span>499 ден</span></p>
+            </div>
+        </section>
+
+
+        <!-- Топло предјадење Section -->
+        <section>
+            <h2>Топло предјадење</h2>
+            <div class="menu-item">
+                <h3>Француски кроасан</h3>
+                <p>Лиснат и путерест кроасан сервиран со џем. <span>249 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Јајца Бенедикт</h3>
+                <p>Поширани јајца на англиски мафини со холандски сос. <span>499 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Салати Section -->
+        <section>
+            <h2>Салати</h2>
+            <div class="menu-item">
+                <h3>Француски кроасан</h3>
+                <p>Лиснат и путерест кроасан сервиран со џем. <span>249 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Јајца Бенедикт</h3>
+                <p>Поширани јајца на англиски мафини со холандски сос. <span>499 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Тестенини Section -->
+        <section>
+            <h2>Тестенини</h2>
+            <div class="menu-item">
+                <h3>Француски кроасан</h3>
+                <p>Лиснат и путерест кроасан сервиран со џем. <span>249 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Јајца Бенедикт</h3>
+                <p>Поширани јајца на англиски мафини со холандски сос. <span>499 ден</span></p>
             </div>
         </section>
 
         <!-- Пица Section -->
         <section>
-            <h2>Пица</h2>
+            <h2>Пица и Пастрмајлија</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Риба Section -->
+        <section>
+            <h2>Риба</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Пилешко Section -->
+        <section>
+            <h2>Пилешко</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Свинско Section -->
+        <section>
+            <h2>Свинско</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Вулкански камен Section -->
+        <section>
+            <h2>Вулкански камен</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Телешко Section -->
+        <section>
+            <h2>Телешко</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Апетисани Section -->
+        <section>
+            <h2>Апетисани</h2>
             <div class="menu-item">
                 <h3>Маргарита</h3>
                 <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
@@ -128,6 +385,136 @@
             <div class="menu-item">
                 <h3>Крем Бриле</h3>
                 <p>Богат крем со карамелизиран шеќер одозгора. <span>449 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Сокови Section -->
+        <section>
+            <h2>Безалхохолни пијалоци</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Кафе Section -->
+        <section>
+            <h2>Кафе</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Пиво Section -->
+        <section>
+            <h2>Пиво</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Ракија Section -->
+        <section>
+            <h2>Ракија</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Жестоки Section -->
+        <section>
+            <h2>Жестоки</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Џин Section -->
+        <section>
+            <h2>Џин</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Водка Section -->
+        <section>
+            <h2>Водка</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Шампањ Section -->
+        <section>
+            <h2>Шампањ</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Коктели Section -->
+        <section>
+            <h2>Коктели</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
+            </div>
+        </section>
+
+        <!-- Вина Section -->
+        <section>
+            <h2>Вина</h2>
+            <div class="menu-item">
+                <h3>Маргарита</h3>
+                <p>Класична пица со домати, моцарела и свеж босилек. <span>749 ден</span></p>
+            </div>
+            <div class="menu-item">
+                <h3>Пеперони делукс</h3>
+                <p>Пица со многу пеперони и дополнително сирење. <span>899 ден</span></p>
             </div>
         </section>
     </main>
