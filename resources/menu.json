@@ -561,27 +561,27 @@
         {
           "name": "Лозова жолта",
           "description": "0,33",
-          "price": "80"
+          "price": "80 ден"
         },
         {
           "name": "Лозова бела",
           "description": "",
-          "price": " 80"
+          "price": " 80 ден"
         },
         {
           "name": "Лозова жолта",
           "description": 0.2,
-          "price": "350"
+          "price": "350 ден"
         },
         {
           "name": "Лозова жолта ВС",
           "description": "",
-          "price": "130"
+          "price": "130 ден"
         },
         {
           "name": "Бовин Премиум",
           "description": "",
-          "price": "150"
+          "price": "150 ден"
         }
       ]
     },
@@ -591,17 +591,17 @@
         {
           "name": "Шток",
           "description": "",
-          "price": "120"
+          "price": "120 ден"
         },
         {
           "name": "Јегер",
           "description": "",
-          "price": "120"
+          "price": "120 ден"
         },
         {
           "name": "Вињак Рубин",
           "description": "",
-          "price": "110"
+          "price": "110 ден"
         },
         {
           "name": "Пелинковец",
@@ -611,22 +611,22 @@
         {
           "name": "Узо Пломари",
           "description": "",
-          "price": "120"
+          "price": "120 ден"
         },
         {
           "name": "Узо Пломари",
           "description": "0.2",
-          "price": "450"
+          "price": "450 ден"
         },
         {
           "name": "Бејлис",
           "description": "",
-          "price": "120"
+          "price": "120 ден"
         },
         {
           "name": "Рум",
           "description": "",
-          "price": "120"
+          "price": "120 ден"
         },
         {
           "name": "Мартини",
@@ -636,7 +636,7 @@
         {
           "name": "Коњак",
           "description": "",
-          "price": " 100"
+          "price": "100 ден"
         }
       ]
     },
@@ -646,27 +646,27 @@
         {
           "name": "Бомбај",
           "description": "",
-          "price": "160"
+          "price": "160 ден"
         },
         {
           "name": "Тангерај",
           "description": "",
-          "price": "150"
+          "price": "150 ден"
         },
         {
           "name": "Бифитер",
           "description": "",
-          "price": "130"
+          "price": "130 ден"
         },
         {
           "name": "Бифитер Пинк",
           "description": "",
-          "price": "150"
+          "price": "150 ден"
         },
         {
           "name": "Брокерс",
           "description": "",
-          "price": "150"
+          "price": "150 ден"
         }
       ]
     },
@@ -676,7 +676,7 @@
         {
           "name": "Греј гус",
           "description": "",
-          "price": "350"
+          "price": "350 ден"
         },
         {
           "name": "Белведере",
@@ -691,12 +691,12 @@
         {
           "name": "Елит",
           "description": "",
-          "price": "250"
+          "price": "250 ден"
         },
         {
           "name": "Столи Голд",
           "description": "",
-          "price": "140"
+          "price": "140 ден"
         }
       ]
     },
@@ -706,37 +706,37 @@
         {
           "name": "Џејмисон",
           "description": "",
-          "price": "150"
+          "price": "150 ден"
         },
         {
           "name": "Чивас 12",
           "description": "",
-          "price": "250"
+          "price": "250 ден"
         },
         {
           "name": "Чивас 15",
           "description": "",
-          "price": "300"
+          "price": "300 ден"
         },
         {
           "name": "Џек даниелс",
           "description": "",
-          "price": "200"
+          "price": "200 ден"
         },
         {
           "name": "Глен Турнер",
           "description": "",
-          "price": "200"
+          "price": "200 ден"
         },
         {
           "name": "Ред Лабел",
           "description": "",
-          "price": "150"
+          "price": "150 ден"
         },
         {
           "name": "Блек Лабек",
           "description": "",
-          "price": "250"
+          "price": "250 ден"
         }
       ]
     },
@@ -746,17 +746,17 @@
         {
           "name": "Моет",
           "description": "",
-          "price": "7500"
+          "price": "7500 ден"
         },
         {
           "name": "Ботега",
           "description": "",
-          "price": "5500"
+          "price": "5500 ден"
         },
         {
           "name": "Просеко ",
           "description": "Розе/Бело",
-          "price": "2500"
+          "price": "2500 ден"
         }
       ]
     },
@@ -766,62 +766,62 @@
         {
           "name": "Моjito",
           "description": "",
-          "price": "200"
+          "price": "200 ден"
         },
         {
           "name": "Sex on the beach",
           "description": "",
-          "price": "200"
+          "price": "200 ден"
         },
         {
           "name": "Long Island",
           "description": "",
-          "price": "230"
+          "price": "230 ден"
         },
         {
           "name": "Blue Lagoon",
           "description": "",
-          "price": "200"
+          "price": "200 ден"
         },
         {
           "name": "Pina Colada",
           "description": "",
-          "price": "220"
+          "price": "220 ден"
         },
         {
           "name": "Blue Margarita",
           "description": "",
-          "price": "200"
+          "price": "200 ден"
         },
         {
           "name": "Coco Campari",
           "description": "",
-          "price": "220"
+          "price": "220 ден"
         },
         {
           "name": "Jegerita",
           "description": "",
-          "price": "220"
+          "price": "220 ден"
         },
         {
           "name": "Cosmopolitan",
           "description": "",
-          "price": "200"
+          "price": "200 ден"
         },
         {
           "name": "Aperol Stpritz",
           "description": "",
-          "price": "220"
+          "price": "220 ден"
         },
         {
           "name": "Tequila Sunrise",
           "description": "",
-          "price": "200"
+          "price": "200 ден"
         },
         {
           "name": "Whiskey Sour",
           "description": "",
-          "price": "240"
+          "price": "240 ден"
         }
       ]
     },
