@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Georgia', serif;
-    background-color: #000000;
+    background-color: #f7f7f7;
     color: #2c2a29;
     line-height: 1.6;
 }
@@ -31,7 +31,7 @@ header img {
 main {
     max-width: 1200px;
     margin: 40px auto;
-    background-color: white;
+    background-color: black;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     padding: 40px;
