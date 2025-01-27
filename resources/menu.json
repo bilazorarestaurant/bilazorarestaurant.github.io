@@ -27,6 +27,11 @@
           "name": "Бекендегс",
           "description": "Лепчиња, две јајца и сланина 100g.",
           "price": "180 ден"
+        },
+        {
+          "name": "Француски појадок",
+          "description": "Две јајца на око,колбас, сланина, сирење.",
+          "price": "230 ден"
         }
       ]
     },
@@ -187,6 +192,11 @@
           "name": "Грилован зеленчук 300g",
           "description": "",
           "price": "150 ден"
+        },
+        {
+          "name": "Пилешки Прсти",
+          "description": "300g",
+          "price": "250 ден"
         }
       ]
     },
@@ -204,7 +214,7 @@
           "price": "260 ден"
         },
         {
-          "name": "Кватро",
+          "name": "Кватроформаџи",
           "description": "Шпагети, сино сирење, моцарела, кашкавал, пармезан и крем за готвење. 300g",
           "price": "290 ден"
         },
@@ -234,13 +244,18 @@
           "price": "300 ден"
         },
         {
-          "name": "Кватро формаѓи",
+          "name": "Кватроформаџи",
           "description": "Доматен сос, кашкавал, сино сирење, пармезан и моцарела",
           "price": "320 ден"
         },
         {
           "name": "Пршуто",
           "description": "Доматен сос, кашкавал, пршут и босилек.",
+          "price": "380 ден"
+        },
+        {
+          "name": "Мортадела",
+          "description": "Доматен сос, кашкавал, мортадела, рокула и шери домат.",
           "price": "380 ден"
         },
         {
@@ -287,6 +302,11 @@
           "name": "Пилешки стек на скара",
           "description": "250g",
           "price": "180 ден"
+        },
+        {
+          "name": "Похован стек",
+          "description": "250g",
+          "price": "250 ден"
         }
       ]
     },
@@ -332,6 +352,26 @@
           "name": "Ребро на скара",
           "description": "300g",
           "price": "230 ден"
+        },
+        {
+          "name": "Полнета вешалица",
+          "description": "300g",
+          "price": "350 ден"
+        },
+        {
+          "name": "Свински колбас",
+          "description": "150g",
+          "price": "140 ден"
+        },
+        {
+          "name": "Полнет увијач",
+          "description": "300g",
+          "price": "350 ден"
+        },
+        {
+          "name": "Зајачко месо",
+          "description": "1kg",
+          "price": "1200 ден"
         }
       ]
     },
@@ -395,8 +435,663 @@
         },
         {
           "name": "Апетисани",
-          "description": "",
+          "description": "100gr",
           "price": "200 ден"
+        }
+      ]
+    },
+    {
+      "title": "Безалкохолни Пијалоци",
+      "items": [
+        {
+          "name": "Пепси",
+          "description": "",
+          "price": "80 ден"
+        },
+        {
+          "name": "Миринда",
+          "description": "",
+          "price": "80 ден"
+        },
+        {
+          "name": "Леден чај",
+          "description": "",
+          "price": "100 ден"
+        },
+        {
+          "name": "Сода",
+          "description": "",
+          "price": "100 ден"
+        },
+        {
+          "name": "Вода негазирана",
+          "description": "Голема/Мала",
+          "price": "100/50 ден"
+        },
+        {
+          "name": "Вода газирана",
+          "description": "Големa/Mала",
+          "price": "100/50 ден"
+        },
+        {
+          "name": "Цеден портокал",
+          "description": "",
+          "price": "130 ден"
+        },
+        {
+          "name": "Цеден Лимон",
+          "description": "",
+          "price": "100 ден"
+        },
+        {
+          "name": "Цеден Микс",
+          "description": "",
+          "price": "150ден"
+        },
+        {
+          "name": "Густи Лајф",
+          "description": "",
+          "price": "90 ден"
+        },
+        {
+          "name": "Ред Бул",
+          "description": "",
+          "price": "150 ден"
+        }
+      ]
+    },
+    {
+      "title": "Кафе",
+      "items": [
+        {
+          "name": "Еспресо",
+          "description": "",
+          "price": "50 ден"
+        },
+        {
+          "name": "Мало макијато",
+          "description": "",
+          "price": "60 ден"
+        },
+        {
+          "name": "Големо макијато",
+          "description": "",
+          "price": "70 ден"
+        },
+        {
+          "name": "Нескафе",
+          "description": "",
+          "price": "80 ден"
+        },
+        {
+          "name": "Чај",
+          "description": "",
+          "price": "60 ден"
+        }
+      ]
+    },
+    {
+      "title": "Пиво",
+      "items": [
+        {
+          "name": "Карлсберг",
+          "description": "",
+          "price": "160 ден"
+        },
+        {
+          "name": "Туборг",
+          "description": "0,33/0.5",
+          "price": "130/150 ден"
+        },
+        {
+          "name": "Златен Даб",
+          "description": "0,33/0.5",
+          "price": "120/140 ден"
+        },
+        {
+          "name": "Корона",
+          "description": "0,33",
+          "price": "200 ден"
+        }
+      ]
+    },
+    {
+      "title": "Ракија",
+      "items": [
+        {
+          "name": "Лозова жолта",
+          "description": "0,33",
+          "price": "80"
+        },
+        {
+          "name": "Лозова бела",
+          "description": "",
+          "price": " 80"
+        },
+        {
+          "name": "Лозова жолта",
+          "description": 0.2,
+          "price": "350"
+        },
+        {
+          "name": "Лозова жолта ВС",
+          "description": "",
+          "price": "130"
+        },
+        {
+          "name": "Бовин Премиум",
+          "description": "",
+          "price": "150"
+        }
+      ]
+    },
+    {
+      "title": "Жестоки пијалоци",
+      "items": [
+        {
+          "name": "Шток",
+          "description": "",
+          "price": "120"
+        },
+        {
+          "name": "Јегер",
+          "description": "",
+          "price": "120"
+        },
+        {
+          "name": "Вињак Рубин",
+          "description": "",
+          "price": "110"
+        },
+        {
+          "name": "Пелинковец",
+          "description": "",
+          "price": "100 ден"
+        },
+        {
+          "name": "Узо Пломари",
+          "description": "",
+          "price": "120"
+        },
+        {
+          "name": "Узо Пломари",
+          "description": "0.2",
+          "price": "450"
+        },
+        {
+          "name": "Бејлис",
+          "description": "",
+          "price": "120"
+        },
+        {
+          "name": "Рум",
+          "description": "",
+          "price": "120"
+        },
+        {
+          "name": "Мартини",
+          "description": "",
+          "price": "140 ден"
+        },
+        {
+          "name": "Коњак",
+          "description": "",
+          "price": " 100"
+        }
+      ]
+    },
+    {
+      "title": "Џин",
+      "items": [
+        {
+          "name": "Бомбај",
+          "description": "",
+          "price": "160"
+        },
+        {
+          "name": "Тангерај",
+          "description": "",
+          "price": "150"
+        },
+        {
+          "name": "Бифитер",
+          "description": "",
+          "price": "130"
+        },
+        {
+          "name": "Бифитер Пинк",
+          "description": "",
+          "price": "150"
+        },
+        {
+          "name": "Брокерс",
+          "description": "",
+          "price": "150"
+        }
+      ]
+    },
+    {
+      "title": "Водка",
+      "items": [
+        {
+          "name": "Греј гус",
+          "description": "",
+          "price": "350"
+        },
+        {
+          "name": "Белведере",
+          "description": "",
+          "price": "350 ден"
+        },
+        {
+          "name": "Абсолут",
+          "description": "",
+          "price": "120"
+        },
+        {
+          "name": "Елит",
+          "description": "",
+          "price": "250"
+        },
+        {
+          "name": "Столи Голд",
+          "description": "",
+          "price": "140"
+        }
+      ]
+    },
+    {
+      "title": "Виски",
+      "items": [
+        {
+          "name": "Џејмисон",
+          "description": "",
+          "price": "150"
+        },
+        {
+          "name": "Чивас 12",
+          "description": "",
+          "price": "250"
+        },
+        {
+          "name": "Чивас 15",
+          "description": "",
+          "price": "300"
+        },
+        {
+          "name": "Џек даниелс",
+          "description": "",
+          "price": "200"
+        },
+        {
+          "name": "Глен Турнер",
+          "description": "",
+          "price": "200"
+        },
+        {
+          "name": "Ред Лабел",
+          "description": "",
+          "price": "150"
+        },
+        {
+          "name": "Блек Лабек",
+          "description": "",
+          "price": "250"
+        }
+      ]
+    },
+    {
+      "title": "Шампањ",
+      "items": [
+        {
+          "name": "Моет",
+          "description": "",
+          "price": "7500"
+        },
+        {
+          "name": "Ботега",
+          "description": "",
+          "price": "5500"
+        },
+        {
+          "name": "Просеко ",
+          "description": "Розе/Бело",
+          "price": "2500"
+        }
+      ]
+    },
+    {
+      "title": "Коктели",
+      "items": [
+        {
+          "name": "Моjito",
+          "description": "",
+          "price": "200"
+        },
+        {
+          "name": "Sex on the beach",
+          "description": "",
+          "price": "200"
+        },
+        {
+          "name": "Long Island",
+          "description": "",
+          "price": "230"
+        },
+        {
+          "name": "Blue Lagoon",
+          "description": "",
+          "price": "200"
+        },
+        {
+          "name": "Pina Colada",
+          "description": "",
+          "price": "220"
+        },
+        {
+          "name": "Blue Margarita",
+          "description": "",
+          "price": "200"
+        },
+        {
+          "name": "Coco Campari",
+          "description": "",
+          "price": "220"
+        },
+        {
+          "name": "Jegerita",
+          "description": "",
+          "price": "220"
+        },
+        {
+          "name": "Cosmopolitan",
+          "description": "",
+          "price": "200"
+        },
+        {
+          "name": "Aperol Stpritz",
+          "description": "",
+          "price": "220"
+        },
+        {
+          "name": "Tequila Sunrise",
+          "description": "",
+          "price": "200"
+        },
+        {
+          "name": "Whiskey Sour",
+          "description": "",
+          "price": "240"
+        }
+      ]
+    },
+    {
+      "title": "Винарија Тиквеш",
+      "items": [
+        {
+          "name": "Александрија Бело",
+          "description": "0.75",
+          "price": "650 ден"
+        },
+        {
+          "name": "Александрија Розе",
+          "description": "0.75",
+          "price": "650 ден"
+        },
+        {
+          "name": "Александрија Црвено",
+          "description": "0.75",
+          "price": "650 ден"
+        },
+        {
+          "name": "Траминец",
+          "description": "0.75",
+          "price": "650 ден"
+        },
+        {
+          "name": "Темјаника Класик",
+          "description": "0.75",
+          "price": "650 ден"
+        },
+        {
+          "name": "Каберне Сувињон",
+          "description": "0.75",
+          "price": "1000 ден"
+        },
+        {
+          "name": "Тга за југ",
+          "description": "0.75",
+          "price": "1000 ден"
+        },
+        {
+          "name": "Александрија бело",
+          "description": "0,187",
+          "price": "180 ден"
+        },
+        {
+          "name": "Александрија розе",
+          "description": "0,187",
+          "price": "180 ден"
+        },
+        {
+          "name": "Александрија црвено",
+          "description": "0,187",
+          "price": "180 ден"
+        },
+        {
+          "name": "Траминец",
+          "description": "0,187",
+          "price": "180 ден"
+        },
+        {
+          "name": "Темјаника Класик",
+          "description": "0,187",
+          "price": "180 ден"
+        },
+        {
+          "name": "Тга за југ",
+          "description": "0,187",
+          "price": "180 ден"
+        }
+      ]
+    },
+    {
+      "title": "Куве",
+      "items": [
+        {
+          "name": "Александрија Куве Бело",
+          "description": "0.75",
+          "price": "1000 ден"
+        },
+        {
+          "name": "Александрија Куве Розе",
+          "description": "0.75",
+          "price": "1000 ден"
+        },
+        {
+          "name": "Александрија Куве Црвено",
+          "description": "0.75",
+          "price": "1000 ден"
+        },
+        {
+          "name": "Александрија куве бело",
+          "description": "0.187",
+          "price": "240 ден"
+        },
+        {
+          "name": "Александрија куве розе",
+          "description": "0.187",
+          "price": "240 ден"
+        },
+        {
+          "name": "Александрија куве црвено",
+          "description": "0.187",
+          "price": "240 ден"
+        }
+      ]
+    },
+    {
+      "title": "Барово",
+      "items": [
+        {
+          "name": "Темјаника Тероар",
+          "description": "0.75",
+          "price": "1500 ден"
+        },
+        {
+          "name": "Сувињон Бланк",
+          "description": "0.75",
+          "price": "1500 ден"
+        }
+      ]
+    },
+    {
+      "title": "Бела Вода",
+      "items": [
+        {
+          "name": "Гренаж",
+          "description": "0.75",
+          "price": "1300 ден"
+        },
+        {
+          "name": "Жилавка",
+          "description": "0.75",
+          "price": "1300 ден"
+        },
+        {
+          "name": "Тероар",
+          "description": "0.75",
+          "price": "3500 ден"
+        },
+        {
+          "name": "Бело",
+          "description": "0.75",
+          "price": "3500 ден"
+        },
+        {
+          "name": "Црвено",
+          "description": "0.75",
+          "price": "3500 ден"
+        }
+      ]
+    },
+    {
+      "title": "Луда Мара",
+      "items": [
+        {
+          "name": "Темјаника",
+          "description": "0.75",
+          "price": "1000 ден"
+        },
+        {
+          "name": "Вранец",
+          "description": "0.75",
+          "price": "1000ден"
+        },
+        {
+          "name": "Шардоне",
+          "description": "0.75",
+          "price": "1000 ден"
+        },
+        {
+          "name": "Мерло",
+          "description": "0.75",
+          "price": "1000 ден"
+        }
+      ]
+    },
+    {
+      "title": "Бабуна",
+      "items": [
+        {
+          "name": "Бело",
+          "description": "0.75",
+          "price": "1600 ден"
+        },
+        {
+          "name": "Црвено",
+          "description": "0.75",
+          "price": "1600 ден"
+        }
+      ]
+    },
+    {
+      "title": "Бовин",
+      "items": [
+        {
+          "name": "Траминец",
+          "description": "0.75",
+          "price": "1300 ден"
+        },
+        {
+          "name": "Мускат Темјаника",
+          "description": "0.75",
+          "price": "1500 ден"
+        },
+        {
+          "name": "Сувињон Бланк",
+          "description": "0.75",
+          "price": "1300 ден"
+        },
+        {
+          "name": "Ана Марија розе  ",
+          "description": "0.75",
+          "price": "1400 ден"
+        },
+        {
+          "name": "Пинот Ноар",
+          "description": "0.75",
+          "price": "1300 ден"
+        },
+        {
+          "name": "Император",
+          "description": "0.75",
+          "price": "3100 ден"
+        },
+        {
+          "name": "Агупка",
+          "description": "0.75",
+          "price": "6500 ден"
+        },
+        {
+          "name": "Александар",
+          "description": "0.75",
+          "price": "1500 ден"
+        }
+      ]
+    },
+    {
+      "title": "Камник",
+      "items": [
+        {
+          "name": "Темјаника Голд",
+          "description": "0.75",
+          "price": "2100 ден"
+        },
+        {
+          "name": "Пино Григио",
+          "description": "0.75",
+          "price": "1300 ден"
+        },
+        {
+          "name": "Розе Секси",
+          "description": "0.75",
+          "price": "1200 ден"
+        }
+      ]
+    },
+    {
+      "title": "Лазар",
+      "items": [
+        {
+          "name": "Темјаника",
+          "description": "0.75",
+          "price": "1200 ден"
+        },
+        {
+          "name": "Фортуна Розе",
+          "description": "0.75",
+          "price": "1300 ден"
         }
       ]
     }
