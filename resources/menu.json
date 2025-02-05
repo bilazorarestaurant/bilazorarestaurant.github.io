@@ -424,6 +424,11 @@
           "price": "150 ден"
         },
         {
+          "name": "Чизкејк ф'стак",
+          "description": "",
+          "price": "170 ден"
+        },
+        {
           "name": "Тирамису",
           "description": "",
           "price": "150 ден"
@@ -1093,6 +1098,31 @@
           "description": "0.75",
           "price": "1300 ден"
         }
+      ]
+    },
+    {
+      "title": "Алорос",
+      "items": [
+        {
+          "name": "Сувињон Бланк",
+          "description": "0.75",
+          "price": "800 ден"
+        },
+        {
+          "name": "Розе",
+          "description": "0.75",
+          "price": "400 ден"
+        },
+        {
+          "name": "Вранец",
+          "description": "0.75",
+          "price": "400 ден"
+        },
+        {
+          "name": "Темјаника",
+          "description": "0.75",
+          "price": "600 ден"
+        },
       ]
     }
   ]
